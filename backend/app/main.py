@@ -13,6 +13,7 @@ app = FastAPI()
 # Add CORS (So Frontend can talk to Backend)
 origins = [
     "http://localhost:3000",
+    "https://andy-blog-api.onrender.com"
 ]
 
 app.add_middleware(
